@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/454431208@qq.com/BootProgramView'
+  s.homepage         = 'https://github.com/YueWangChina/BootProgramView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '454431208@qq.com' => 'wangyuexdy@163.com' }
-  s.source           = { :git => 'https://github.com/454431208@qq.com/BootProgramView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/YueWangChina/BootProgramView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BootProgramView/Classes/**/*'
+    s.source_files = 'BootProgramView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BootProgramView' => ['BootProgramView/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'BootProgramView' => ['BootProgramView/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
