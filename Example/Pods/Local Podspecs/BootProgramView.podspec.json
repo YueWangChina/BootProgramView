@@ -1,0 +1,28 @@
+{
+  "name": "BootProgramView",
+  "version": "0.1.0",
+  "summary": "A short description of BootProgramView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YueWangChina/BootProgramView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "454431208@qq.com": "wangyuexdy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/YueWangChina/BootProgramView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BootProgramView/Classes/**/*",
+  "resource_bundles": {
+    "BootProgramView": [
+      "BootProgramView/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
+}

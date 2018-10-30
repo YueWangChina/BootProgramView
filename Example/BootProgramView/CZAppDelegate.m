@@ -7,12 +7,25 @@
 //
 
 #import "CZAppDelegate.h"
-
+#import "PageControlView.h"
+#import "CZTestViewController.h"
 @implementation CZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor redColor];
+
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:[CZTestViewController new]];
+    self.window.rootViewController = navi;
+    [self.window makeKeyAndVisible];
+
+    
+        [PageControlView shareandImageList:@[@"引导页1",@"引导页2",@"引导页3"]];
+    
+    
+    
     return YES;
 }
 

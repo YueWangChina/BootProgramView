@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1612A8F4A2FE0B60F9F4D154 /* Pods_BootProgramView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BE7A2FE698EA50784EA693 /* Pods_BootProgramView_Example.framework */; };
+		17C0B86421885C5D00C07497 /* CZTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C0B86321885C5D00C07497 /* CZTestViewController.m */; };
 		5C9F87B56A99FE80C5CDE9E8 /* Pods_BootProgramView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C661F8D20508B50B7A481E /* Pods_BootProgramView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -15,7 +16,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17C0B86221885C5D00C07497 /* CZTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZTestViewController.h; sourceTree = "<group>"; };
+		17C0B86321885C5D00C07497 /* CZTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZTestViewController.m; sourceTree = "<group>"; };
 		31C661F8D20508B50B7A481E /* Pods_BootProgramView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BootProgramView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C28E1E4539BAA91F15DAF04 /* Pods-BootProgramView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootProgramView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BootProgramView_Tests/Pods-BootProgramView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BootProgramView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootProgramView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,8 +51,6 @@
 		6003F59B195388D20070C39A /* BootProgramView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BootProgramView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* BootProgramView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootProgramView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,11 +61,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		752296DAD05EBA0649C83BB0 /* Pods-BootProgramView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootProgramView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BootProgramView_Example/Pods-BootProgramView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87BCD70B94E7D9822DFB10DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		87BCD70B94E7D9822DFB10DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		88BE7A2FE698EA50784EA693 /* Pods_BootProgramView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BootProgramView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A913D8B8BC0BF11E5B2CA15A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A913D8B8BC0BF11E5B2CA15A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CC33B0A13031052ADC606A15 /* Pods-BootProgramView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootProgramView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BootProgramView_Tests/Pods-BootProgramView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6DB5CC7646705FC866E1358 /* BootProgramView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BootProgramView.podspec; path = ../BootProgramView.podspec; sourceTree = "<group>"; };
+		D6DB5CC7646705FC866E1358 /* BootProgramView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BootProgramView.podspec; path = ../BootProgramView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4E11E68164F1695F46635B8 /* Pods-BootProgramView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootProgramView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BootProgramView_Example/Pods-BootProgramView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,8 +135,8 @@
 				6003F59C195388D20070C39A /* CZAppDelegate.h */,
 				6003F59D195388D20070C39A /* CZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CZViewController.h */,
-				6003F5A6195388D20070C39A /* CZViewController.m */,
+				17C0B86221885C5D00C07497 /* CZTestViewController.h */,
+				17C0B86321885C5D00C07497 /* CZTestViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "454431208@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6BYJ87DZP3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -404,7 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CZViewController.m in Sources */,
+				17C0B86421885C5D00C07497 /* CZTestViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +536,8 @@
 			baseConfigurationReference = 752296DAD05EBA0649C83BB0 /* Pods-BootProgramView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6BYJ87DZP3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BootProgramView/BootProgramView-Prefix.pch";
 				INFOPLIST_FILE = "BootProgramView/BootProgramView-Info.plist";
@@ -548,6 +553,8 @@
 			baseConfigurationReference = F4E11E68164F1695F46635B8 /* Pods-BootProgramView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 6BYJ87DZP3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BootProgramView/BootProgramView-Prefix.pch";
 				INFOPLIST_FILE = "BootProgramView/BootProgramView-Info.plist";

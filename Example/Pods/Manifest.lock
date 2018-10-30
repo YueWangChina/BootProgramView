@@ -1,0 +1,16 @@
+PODS:
+  - BootProgramView (0.1.0)
+
+DEPENDENCIES:
+  - BootProgramView (from `../`)
+
+EXTERNAL SOURCES:
+  BootProgramView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BootProgramView: e999f0dd1b5bf5daca52a18f2f21216d0b891121
+
+PODFILE CHECKSUM: 086d4f7b55e1b7062e930596b526411502d9b896
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module BootProgramView {
+  umbrella header "BootProgramView-umbrella.h"
+
+  export *
+  module * { export * }
+}
