@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BootProgramView_Example' do
+  pod 'BootProgramView', :path => '../'
+
+  target 'BootProgramView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
