@@ -23,6 +23,5 @@
     "BootProgramView": [
       "BootProgramView/Assets/*.png"
     ]
-  },
-  "public_header_files": "Pod/Classes/**/*.h"
+  }
 }
