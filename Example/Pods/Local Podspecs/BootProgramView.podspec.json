@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BootProgramView/Classes/**/*.{h,m,}",
+  "source_files": "BootProgramView/Classes/**/*",
   "resource_bundles": {
     "BootProgramView": [
-      "BootProgramView/Assets/*.{png,xib}"
+      "BootProgramView/Assets/*"
     ]
   }
 }

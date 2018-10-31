@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BootProgramView'
-  s.version          = '3.0.0'
+  s.version          = '4.0.0'
   s.summary          = 'A short description of BootProgramView.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BootProgramView/Classes/**/*.{h,m,}'
+  s.source_files = 'BootProgramView/Classes/**/*'
   
    s.resource_bundles = {
-       'BootProgramView' => ['BootProgramView/Assets/*.{png,xib}']
+       'BootProgramView' => ['BootProgramView/Assets/*']
    }
 
    # s.public_header_files = 'Pod/Classes/**/*.h'
