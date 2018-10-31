@@ -1,5 +1,5 @@
 PODS:
-  - BootProgramView (3.0.0)
+  - BootProgramView (5.0.0)
 
 DEPENDENCIES:
   - BootProgramView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BootProgramView: 8a7ead3265a7cb97e70a571da34a991a8276fbbe
+  BootProgramView: e9b77d988ee1853f91d0725493896c89072762db
 
 PODFILE CHECKSUM: 086d4f7b55e1b7062e930596b526411502d9b896
 

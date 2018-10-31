@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0111CC71BD2389C1F6ECD916E037F4FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0EDC6F78A53ABF95D99EDB30603A4432 /* BootProgramView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E846AE75519ACFDD20617B3DC0D1A6F /* BootProgramView.bundle */; };
 		15A3EB9E28E2BF06BE2CAD86654C7FFA /* Pods-BootProgramView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE58B1B7B316AFF7E11DD22D741B1761 /* Pods-BootProgramView_Example-dummy.m */; };
-		1E3F06AA2E8F3829ABA4ECF91138A594 /* BootProgramView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E846AE75519ACFDD20617B3DC0D1A6F /* BootProgramView.bundle */; };
-		37BFAA0011BD22E63B2DF8BF0A8E3B6A /* 引导页2IphoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = F57AF96C0CAF3F631D69F7E56C9462F3 /* 引导页2IphoneX.png */; };
-		44B9EB3D232503C0E60ADB555F30E433 /* 引导页2.png in Resources */ = {isa = PBXBuildFile; fileRef = C54B5B709BEC4A3C70FD50D5436584BE /* 引导页2.png */; };
+		2DA72DD133E02127748B46805533C0B3 /* NSBundle+SuBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1FD9BB69E1D43F54B9B2EEFBA435C /* NSBundle+SuBundle.m */; };
+		3441A29E75617DC67F5CB0BCC155CF8E /* PageControlCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 237F1847C7C3818988E58FA313125A45 /* PageControlCollectionViewCell.m */; };
+		41936B782EE4A834C60F93CBC1CE3A3E /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B314EB42DC03508E555101FCD644A8BB /* PageControlView.m */; };
 		4A9ADFF295031D2DA6D7786D3C8E3A77 /* Pods-BootProgramView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF40A22AF123D913CDC1C387995552 /* Pods-BootProgramView_Tests-dummy.m */; };
-		60196B94AAA2AA27801A6108AA5B635F /* 引导页1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B69DFB132706CB8DDE26AFD98E014B2 /* 引导页1.png */; };
-		62D6D8EF922A372C0FCB427F0A222A47 /* PageControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 782A621E7A261A7400DBD436460139CE /* PageControlView.xib */; };
-		64FCB387F8E754AD9321421A3A607497 /* PageControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DD1327AC1A279D789D8E6BF4B2784C /* PageControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53B284CDA30E918B984AA7F2E1C07B57 /* 引导页1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CC4526B19AA3700C637FF4ECD07FC55 /* 引导页1.png */; };
+		611D4D7D185CD88ADBE1759576E37943 /* PageControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C109795C2F8DBA65113A4FB07305A7 /* PageControlCollectionViewCell.xib */; };
+		61AD14F2D78A657AB066820D7338DA54 /* NSBundle+SuBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E22114208928E2E6EECF4F7E448D20 /* NSBundle+SuBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67E93AB21ADD7A374992228AB909207B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		76401338D7B8DA46428C54496EFF5302 /* PageControlCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEB597977AF17491D97229B6154C92D /* PageControlCollectionViewCell.m */; };
-		7DDA8CF506CF9CDEC8DF6D88AD95D203 /* 引导页1IphoneX .png in Resources */ = {isa = PBXBuildFile; fileRef = A6CFA4FF2E6B0487A62AFBF14E966D27 /* 引导页1IphoneX .png */; };
-		8C1C667B4EB94661FC899CFD58372C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A12EB842DE4A2A5259B270A5146B4354 /* 引导页2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B505F0AA3E9239EC3395EEDC0344EE /* 引导页2@3x.png */; };
+		6C93B33F19B0FF7B85FBFC4620B134DA /* 引导页1IphoneX .png in Resources */ = {isa = PBXBuildFile; fileRef = 8FD1F64E61283465142F32AC113027DD /* 引导页1IphoneX .png */; };
+		6ECA7AD75FAA6D222033EF3268F6C8B3 /* PageControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 721CEF8587FCAE246390B439B86E3C78 /* PageControlView.xib */; };
+		74A00DB0D9E70A152D327330D8FC12AD /* 引导页3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38F6F91A4526846809A02EBD783A450 /* 引导页3@3x.png */; };
+		7C072063EB75428EEBC55BE1C34E6409 /* PageControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 110F8AE7C1329786CABEC40970779867 /* PageControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81CA4CABFB5A98309794F54B9B24D422 /* 引导页3IphoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C246B23BFE7FFF381BD238C52A1871 /* 引导页3IphoneX.png */; };
+		845871DF9778D42ECCA7E0BC077F05A9 /* BootProgramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B558E96E4E7DA603BB8AF2827B32E8E /* BootProgramView-dummy.m */; };
+		84AAE1143739529741A8282D9164B135 /* BootProgramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D4D696C72A38E69D86B1D7F848CFF6 /* BootProgramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2942775698E555584216ADA14DB7AE /* PageControlCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2606CF91BDD4F81B85D2D31367BEB625 /* PageControlCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A18783709283B64C17401F9979B2E3ED /* 引导页3.png in Resources */ = {isa = PBXBuildFile; fileRef = 945A4AA8A54426E3A47C1414C85638CF /* 引导页3.png */; };
+		A24C0491E252BBAE18A5178661205671 /* 引导页3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559005432714DDFEFEE22291B6DC5C93 /* 引导页3@2x.png */; };
 		A48F3881612A2A3E187C15D1F2E9F858 /* Pods-BootProgramView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6BE6C0D6AC2AEB7019FA8E483FA3AB /* Pods-BootProgramView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA40110E2B8510901AB745F1DF30EEE7 /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA30ADD5B9B49283F4335DCF0CE1E6DE /* PageControlView.m */; };
-		CD100B070B3D56F4322E3090C86DB8BD /* BootProgramView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE59409F3525A23267152FFF371BA156 /* BootProgramView-dummy.m */; };
-		D11F32995E340F0F53F507AA8F742D76 /* 引导页3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD62308605AEFD84F06E6B68380C1D06 /* 引导页3.png */; };
-		D5A4D888B29D12D5F5171541A0E6DB9F /* PageControlCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDBCE9379C724E49DA3779F7F9B70FC /* PageControlCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA67446CBF554EB6A2B3D62E66F83E91 /* 引导页3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54E31D9B86256C5FA33EAA1DDE998574 /* 引导页3@2x.png */; };
-		DCDE8B64511C452A53DA476748CD4FEF /* 引导页3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5867FE02509FE730FB67998D94888560 /* 引导页3@3x.png */; };
-		E11937FE372DBAFC8740AD486E226DFB /* PageControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8512F9F797775678B9FF826D154EB4F8 /* PageControlCollectionViewCell.xib */; };
+		CAFAD0A2CF9B9ECECF720BF56D1612D8 /* 引导页2IphoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EFCD4636DCA446F976AA53F53D6D3F5 /* 引导页2IphoneX.png */; };
+		DF30D649BDA54A0FE78FBB309A4F0626 /* 引导页2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34489229B0604F03603BDFE915E34184 /* 引导页2@2x.png */; };
 		E2B2E09686E5A62AAA2ADCDF8B2D46B8 /* Pods-BootProgramView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CD314ED6F367FA9B2DE730E26FFF10 /* Pods-BootProgramView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3234B6DEF4D509371591D03F248921C /* 引导页3IphoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 419294E99679DBAF8BF4706F86683217 /* 引导页3IphoneX.png */; };
 		E8C1212F90A177400BCE6E4968DD0F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EAE736B6E8A4074B91F09C469CED6693 /* 引导页2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 106908C2D5C9D0C24663116B1322FAC1 /* 引导页2@2x.png */; };
-		F018BC920D0279282BB6A1596027B3D2 /* BootProgramView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699DB1020ED1D0A3A41B47CFE196399A /* BootProgramView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F36101E5E8F8322A92C2C88CCF703A98 /* 引导页2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D9A02A91BAFE46E1DA5F9921C692FBD /* 引导页2.png */; };
+		FD7B71A4276A5309E835D76C6B24C330 /* 引导页2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1F85CC0121B43A1404A86F9C8CDBCB /* 引导页2@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,94 +42,89 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E5E4E72C4B0B7D579ABD38E0F3CE63C;
+			remoteGlobalIDString = B9014804799726761ADF38040EAE81C0;
 			remoteInfo = BootProgramView;
 		};
-		D163B9FFCE7C2C222A55302E87F8AF5C /* PBXContainerItemProxy */ = {
+		50207063338CC3C5AE03C2D1F21A6BA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E77D2560B0F9CA6558C385376AE6B66;
+			remoteGlobalIDString = 857D83DFFA880CC981BB9EF87542C224;
 			remoteInfo = "BootProgramView-BootProgramView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021602C1DA755F235F3A4373B02CF11A /* ResourceBundle-BootProgramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BootProgramView-Info.plist"; sourceTree = "<group>"; };
-		03BD6432E69B4175C6AADEF65215A127 /* BootProgramView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BootProgramView.xcconfig; sourceTree = "<group>"; };
 		0A41D2D851DAC0303609199E20E7DDA4 /* Pods-BootProgramView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BootProgramView_Tests-resources.sh"; sourceTree = "<group>"; };
-		0B564B4A3E29D1EBAB7A6FBF5771D740 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0B69DFB132706CB8DDE26AFD98E014B2 /* 引导页1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页1.png"; path = "BootProgramView/Assets/引导页1.png"; sourceTree = "<group>"; };
 		0E846AE75519ACFDD20617B3DC0D1A6F /* BootProgramView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BootProgramView.bundle; path = "BootProgramView-BootProgramView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		106908C2D5C9D0C24663116B1322FAC1 /* 引导页2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2@2x.png"; path = "BootProgramView/Assets/引导页2@2x.png"; sourceTree = "<group>"; };
-		18262B8DC6CF2A9F55D7C740C9E86172 /* BootProgramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BootProgramView.modulemap; sourceTree = "<group>"; };
-		19DD1327AC1A279D789D8E6BF4B2784C /* PageControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageControlView.h; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlView.h"; sourceTree = "<group>"; };
+		110F8AE7C1329786CABEC40970779867 /* PageControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageControlView.h; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlView.h"; sourceTree = "<group>"; };
+		11C246B23BFE7FFF381BD238C52A1871 /* 引导页3IphoneX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3IphoneX.png"; path = "BootProgramView/Assets/引导页3IphoneX.png"; sourceTree = "<group>"; };
 		1ABF40A22AF123D913CDC1C387995552 /* Pods-BootProgramView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BootProgramView_Tests-dummy.m"; sourceTree = "<group>"; };
+		2161E0D800A2C295398D6AAF36029311 /* BootProgramView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BootProgramView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		237F1847C7C3818988E58FA313125A45 /* PageControlCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageControlCollectionViewCell.m; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlCollectionViewCell.m"; sourceTree = "<group>"; };
+		2606CF91BDD4F81B85D2D31367BEB625 /* PageControlCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageControlCollectionViewCell.h; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlCollectionViewCell.h"; sourceTree = "<group>"; };
 		2C1080573BD755A771E8482BF38FBCA8 /* Pods-BootProgramView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BootProgramView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2CDBCE9379C724E49DA3779F7F9B70FC /* PageControlCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PageControlCollectionViewCell.h; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlCollectionViewCell.h"; sourceTree = "<group>"; };
+		2CC4526B19AA3700C637FF4ECD07FC55 /* 引导页1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页1.png"; path = "BootProgramView/Assets/引导页1.png"; sourceTree = "<group>"; };
 		2E6BE6C0D6AC2AEB7019FA8E483FA3AB /* Pods-BootProgramView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BootProgramView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		34489229B0604F03603BDFE915E34184 /* 引导页2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2@2x.png"; path = "BootProgramView/Assets/引导页2@2x.png"; sourceTree = "<group>"; };
 		39B1223632240C632071EF8AFDC079AC /* Pods-BootProgramView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BootProgramView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B558E96E4E7DA603BB8AF2827B32E8E /* BootProgramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BootProgramView-dummy.m"; sourceTree = "<group>"; };
 		40CD314ED6F367FA9B2DE730E26FFF10 /* Pods-BootProgramView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BootProgramView_Example-umbrella.h"; sourceTree = "<group>"; };
-		419294E99679DBAF8BF4706F86683217 /* 引导页3IphoneX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3IphoneX.png"; path = "BootProgramView/Assets/引导页3IphoneX.png"; sourceTree = "<group>"; };
+		41E22114208928E2E6EECF4F7E448D20 /* NSBundle+SuBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SuBundle.h"; path = "BootProgramView/Classes/BootProgramView(引导图)/NSBundle+SuBundle.h"; sourceTree = "<group>"; };
 		457C4B64D17DB805B7D7BFF6E8DF2D0B /* Pods-BootProgramView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BootProgramView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		50DCE3CD6A999FC51BA3A6420B041CF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		54E31D9B86256C5FA33EAA1DDE998574 /* 引导页3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3@2x.png"; path = "BootProgramView/Assets/引导页3@2x.png"; sourceTree = "<group>"; };
+		4CA1FD9BB69E1D43F54B9B2EEFBA435C /* NSBundle+SuBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SuBundle.m"; path = "BootProgramView/Classes/BootProgramView(引导图)/NSBundle+SuBundle.m"; sourceTree = "<group>"; };
+		4EFCD4636DCA446F976AA53F53D6D3F5 /* 引导页2IphoneX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2IphoneX.png"; path = "BootProgramView/Assets/引导页2IphoneX.png"; sourceTree = "<group>"; };
 		5516CD83D38BA4DD9FB05EFA1B95B14C /* BootProgramView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BootProgramView.framework; path = BootProgramView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5867FE02509FE730FB67998D94888560 /* 引导页3@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3@3x.png"; path = "BootProgramView/Assets/引导页3@3x.png"; sourceTree = "<group>"; };
-		60B505F0AA3E9239EC3395EEDC0344EE /* 引导页2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2@3x.png"; path = "BootProgramView/Assets/引导页2@3x.png"; sourceTree = "<group>"; };
+		559005432714DDFEFEE22291B6DC5C93 /* 引导页3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3@2x.png"; path = "BootProgramView/Assets/引导页3@2x.png"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68EF28CCAF4ECEDA767D1A5B0E7A7123 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699DB1020ED1D0A3A41B47CFE196399A /* BootProgramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BootProgramView-umbrella.h"; sourceTree = "<group>"; };
+		6961BD2510E92F3CD4C3A7F9D6891005 /* BootProgramView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BootProgramView-prefix.pch"; sourceTree = "<group>"; };
 		69F4BFC1013C34CE035568165135F93E /* Pods-BootProgramView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BootProgramView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		782A621E7A261A7400DBD436460139CE /* PageControlView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlView.xib; path = BootProgramView/Assets/PageControlView.xib; sourceTree = "<group>"; };
+		721CEF8587FCAE246390B439B86E3C78 /* PageControlView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlView.xib; path = BootProgramView/Assets/PageControlView.xib; sourceTree = "<group>"; };
+		7650FC27BE9BE250354F9D862367D186 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D9A02A91BAFE46E1DA5F9921C692FBD /* 引导页2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2.png"; path = "BootProgramView/Assets/引导页2.png"; sourceTree = "<group>"; };
 		7E03363557EB66C0BCA713AD1D510447 /* Pods-BootProgramView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BootProgramView_Tests.modulemap"; sourceTree = "<group>"; };
-		8512F9F797775678B9FF826D154EB4F8 /* PageControlCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlCollectionViewCell.xib; path = BootProgramView/Assets/PageControlCollectionViewCell.xib; sourceTree = "<group>"; };
+		8361451CE44636989903715DD7F070D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		87FB6E90FF478A5B946CDB84E4F756D5 /* Pods-BootProgramView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BootProgramView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8FBB34071FD2551CCB6A024D7B59248E /* Pods-BootProgramView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BootProgramView_Example-resources.sh"; sourceTree = "<group>"; };
+		8FD1F64E61283465142F32AC113027DD /* 引导页1IphoneX .png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页1IphoneX .png"; path = "BootProgramView/Assets/引导页1IphoneX .png"; sourceTree = "<group>"; };
+		92008DE49EEAD09DF04A3CF8376DF32D /* BootProgramView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BootProgramView.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6CFA4FF2E6B0487A62AFBF14E966D27 /* 引导页1IphoneX .png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页1IphoneX .png"; path = "BootProgramView/Assets/引导页1IphoneX .png"; sourceTree = "<group>"; };
+		945A4AA8A54426E3A47C1414C85638CF /* 引导页3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3.png"; path = "BootProgramView/Assets/引导页3.png"; sourceTree = "<group>"; };
+		96D4D696C72A38E69D86B1D7F848CFF6 /* BootProgramView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BootProgramView-umbrella.h"; sourceTree = "<group>"; };
+		AC1F85CC0121B43A1404A86F9C8CDBCB /* 引导页2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2@3x.png"; path = "BootProgramView/Assets/引导页2@3x.png"; sourceTree = "<group>"; };
 		B1CCA150EA24B251F812FA0E5C513DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B314EB42DC03508E555101FCD644A8BB /* PageControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageControlView.m; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlView.m"; sourceTree = "<group>"; };
 		B4CFCB3D6CA2A3C9FC99495DFF1F7334 /* Pods-BootProgramView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BootProgramView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B552846F6E9BEA99629A96F6B99C7303 /* Pods-BootProgramView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BootProgramView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD62308605AEFD84F06E6B68380C1D06 /* 引导页3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3.png"; path = "BootProgramView/Assets/引导页3.png"; sourceTree = "<group>"; };
 		BE58B1B7B316AFF7E11DD22D741B1761 /* Pods-BootProgramView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BootProgramView_Example-dummy.m"; sourceTree = "<group>"; };
-		C21D8BE5DF79C50BE9DC79EE035311B2 /* BootProgramView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BootProgramView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C54B5B709BEC4A3C70FD50D5436584BE /* 引导页2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2.png"; path = "BootProgramView/Assets/引导页2.png"; sourceTree = "<group>"; };
-		CA10BC65E17816E1346072680605B7CD /* BootProgramView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BootProgramView-prefix.pch"; sourceTree = "<group>"; };
+		C1C109795C2F8DBA65113A4FB07305A7 /* PageControlCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlCollectionViewCell.xib; path = BootProgramView/Assets/PageControlCollectionViewCell.xib; sourceTree = "<group>"; };
+		C38F6F91A4526846809A02EBD783A450 /* 引导页3@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页3@3x.png"; path = "BootProgramView/Assets/引导页3@3x.png"; sourceTree = "<group>"; };
+		C53DE45D20838BF2F1A709F37BA4CB46 /* ResourceBundle-BootProgramView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BootProgramView-Info.plist"; sourceTree = "<group>"; };
 		D5C038A42C1B49BF8CBEE5C1C7546621 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6787DDAD2BC05F9B621D6D5616171E1 /* BootProgramView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BootProgramView.xcconfig; sourceTree = "<group>"; };
 		DC4E3ECF6273D0F6C965659F2985321A /* Pods_BootProgramView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BootProgramView_Tests.framework; path = "Pods-BootProgramView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E217A103CDB140746FB5504E11001E45 /* Pods_BootProgramView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BootProgramView_Example.framework; path = "Pods-BootProgramView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DDBA701E6D71DB29A3DA75BABB19A5 /* Pods-BootProgramView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BootProgramView_Example.modulemap"; sourceTree = "<group>"; };
-		EAEB597977AF17491D97229B6154C92D /* PageControlCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageControlCollectionViewCell.m; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlCollectionViewCell.m"; sourceTree = "<group>"; };
+		F0764E4D6EACD23F61FCE47D0870B899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F476B92B03EE654B2F993F62651BE618 /* Pods-BootProgramView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BootProgramView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F517FE0C5D2903C46E10335B935CAD02 /* Pods-BootProgramView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BootProgramView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F57AF96C0CAF3F631D69F7E56C9462F3 /* 引导页2IphoneX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "引导页2IphoneX.png"; path = "BootProgramView/Assets/引导页2IphoneX.png"; sourceTree = "<group>"; };
-		FA30ADD5B9B49283F4335DCF0CE1E6DE /* PageControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageControlView.m; path = "BootProgramView/Classes/BootProgramView(引导图)/PageControlView.m"; sourceTree = "<group>"; };
 		FDED81BE5B8CB5624CC78A8D0A771883 /* Pods-BootProgramView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BootProgramView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FE59409F3525A23267152FFF371BA156 /* BootProgramView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BootProgramView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BD0EFAE759D123D2402FB4AE765F5C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8FB0E779281AE0E88C6B16E997DE448D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C1C667B4EB94661FC899CFD58372C83 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99F83643D57994A1DA4F5E2242959DF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				67E93AB21ADD7A374992228AB909207B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88043F750B5A89CD6067ED9E1358F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0111CC71BD2389C1F6ECD916E037F4FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +136,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF36EDC1DA571D67E7AED7A7C6D0F258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04844D953852EFA3317D23DCC8829CBC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85AD8C948E3C07A0AD4BFB22AAA9EB69 /* BootProgramView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		113B84D8495A135A4007709F610181D3 /* Pods-BootProgramView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,14 +181,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		51CA18A2109A4AD1945DC59F9EC9DE20 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AA839E5F68520D2C2D0D248EF11110EB /* BootProgramView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		535864E62918CE68C976D0188AE143F8 /* Pods-BootProgramView_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,37 +199,29 @@
 			path = "Target Support Files/Pods-BootProgramView_Tests";
 			sourceTree = "<group>";
 		};
-		6E4ED55D7D471B52100BA60830DC26C1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C21D8BE5DF79C50BE9DC79EE035311B2 /* BootProgramView.podspec */,
-				0B564B4A3E29D1EBAB7A6FBF5771D740 /* LICENSE */,
-				50DCE3CD6A999FC51BA3A6420B041CF8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				51CA18A2109A4AD1945DC59F9EC9DE20 /* Development Pods */,
+				04844D953852EFA3317D23DCC8829CBC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				AEC0AEBCCA1B64FEA01B7344DF3C7C29 /* Products */,
 				1E38485462BB302678AA2C2E9B2BBD64 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AA839E5F68520D2C2D0D248EF11110EB /* BootProgramView */ = {
+		85AD8C948E3C07A0AD4BFB22AAA9EB69 /* BootProgramView */ = {
 			isa = PBXGroup;
 			children = (
-				2CDBCE9379C724E49DA3779F7F9B70FC /* PageControlCollectionViewCell.h */,
-				EAEB597977AF17491D97229B6154C92D /* PageControlCollectionViewCell.m */,
-				19DD1327AC1A279D789D8E6BF4B2784C /* PageControlView.h */,
-				FA30ADD5B9B49283F4335DCF0CE1E6DE /* PageControlView.m */,
-				6E4ED55D7D471B52100BA60830DC26C1 /* Pod */,
-				D51891C097261B1FADCDBBD1E46EBB98 /* Resources */,
-				F86F3DC79007BADAE486520FF3FAADB6 /* Support Files */,
+				41E22114208928E2E6EECF4F7E448D20 /* NSBundle+SuBundle.h */,
+				4CA1FD9BB69E1D43F54B9B2EEFBA435C /* NSBundle+SuBundle.m */,
+				2606CF91BDD4F81B85D2D31367BEB625 /* PageControlCollectionViewCell.h */,
+				237F1847C7C3818988E58FA313125A45 /* PageControlCollectionViewCell.m */,
+				110F8AE7C1329786CABEC40970779867 /* PageControlView.h */,
+				B314EB42DC03508E555101FCD644A8BB /* PageControlView.m */,
+				B71BBD42787E844AF8C89BCDA5B026E0 /* Pod */,
+				F72118C62D782CBF60A0BC9A80ACD67A /* Resources */,
+				C2BD188617E2190C93E06A3554FAF3B4 /* Support Files */,
 			);
 			name = BootProgramView;
 			path = ../..;
@@ -242,12 +238,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B71BBD42787E844AF8C89BCDA5B026E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2161E0D800A2C295398D6AAF36029311 /* BootProgramView.podspec */,
+				8361451CE44636989903715DD7F070D7 /* LICENSE */,
+				7650FC27BE9BE250354F9D862367D186 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2BD188617E2190C93E06A3554FAF3B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92008DE49EEAD09DF04A3CF8376DF32D /* BootProgramView.modulemap */,
+				D6787DDAD2BC05F9B621D6D5616171E1 /* BootProgramView.xcconfig */,
+				3B558E96E4E7DA603BB8AF2827B32E8E /* BootProgramView-dummy.m */,
+				6961BD2510E92F3CD4C3A7F9D6891005 /* BootProgramView-prefix.pch */,
+				96D4D696C72A38E69D86B1D7F848CFF6 /* BootProgramView-umbrella.h */,
+				F0764E4D6EACD23F61FCE47D0870B899 /* Info.plist */,
+				C53DE45D20838BF2F1A709F37BA4CB46 /* ResourceBundle-BootProgramView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BootProgramView";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -258,38 +279,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D51891C097261B1FADCDBBD1E46EBB98 /* Resources */ = {
+		F72118C62D782CBF60A0BC9A80ACD67A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8512F9F797775678B9FF826D154EB4F8 /* PageControlCollectionViewCell.xib */,
-				782A621E7A261A7400DBD436460139CE /* PageControlView.xib */,
-				0B69DFB132706CB8DDE26AFD98E014B2 /* 引导页1.png */,
-				A6CFA4FF2E6B0487A62AFBF14E966D27 /* 引导页1IphoneX .png */,
-				C54B5B709BEC4A3C70FD50D5436584BE /* 引导页2.png */,
-				106908C2D5C9D0C24663116B1322FAC1 /* 引导页2@2x.png */,
-				60B505F0AA3E9239EC3395EEDC0344EE /* 引导页2@3x.png */,
-				F57AF96C0CAF3F631D69F7E56C9462F3 /* 引导页2IphoneX.png */,
-				BD62308605AEFD84F06E6B68380C1D06 /* 引导页3.png */,
-				54E31D9B86256C5FA33EAA1DDE998574 /* 引导页3@2x.png */,
-				5867FE02509FE730FB67998D94888560 /* 引导页3@3x.png */,
-				419294E99679DBAF8BF4706F86683217 /* 引导页3IphoneX.png */,
+				C1C109795C2F8DBA65113A4FB07305A7 /* PageControlCollectionViewCell.xib */,
+				721CEF8587FCAE246390B439B86E3C78 /* PageControlView.xib */,
+				2CC4526B19AA3700C637FF4ECD07FC55 /* 引导页1.png */,
+				8FD1F64E61283465142F32AC113027DD /* 引导页1IphoneX .png */,
+				7D9A02A91BAFE46E1DA5F9921C692FBD /* 引导页2.png */,
+				34489229B0604F03603BDFE915E34184 /* 引导页2@2x.png */,
+				AC1F85CC0121B43A1404A86F9C8CDBCB /* 引导页2@3x.png */,
+				4EFCD4636DCA446F976AA53F53D6D3F5 /* 引导页2IphoneX.png */,
+				945A4AA8A54426E3A47C1414C85638CF /* 引导页3.png */,
+				559005432714DDFEFEE22291B6DC5C93 /* 引导页3@2x.png */,
+				C38F6F91A4526846809A02EBD783A450 /* 引导页3@3x.png */,
+				11C246B23BFE7FFF381BD238C52A1871 /* 引导页3IphoneX.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		F86F3DC79007BADAE486520FF3FAADB6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				18262B8DC6CF2A9F55D7C740C9E86172 /* BootProgramView.modulemap */,
-				03BD6432E69B4175C6AADEF65215A127 /* BootProgramView.xcconfig */,
-				FE59409F3525A23267152FFF371BA156 /* BootProgramView-dummy.m */,
-				CA10BC65E17816E1346072680605B7CD /* BootProgramView-prefix.pch */,
-				699DB1020ED1D0A3A41B47CFE196399A /* BootProgramView-umbrella.h */,
-				68EF28CCAF4ECEDA767D1A5B0E7A7123 /* Info.plist */,
-				021602C1DA755F235F3A4373B02CF11A /* ResourceBundle-BootProgramView-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BootProgramView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,26 +317,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D559FF9BA95BEA56CB9E30998B1D377D /* Headers */ = {
+		8F87A75652C90089F7C0AF90CF5AF230 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F018BC920D0279282BB6A1596027B3D2 /* BootProgramView-umbrella.h in Headers */,
-				D5A4D888B29D12D5F5171541A0E6DB9F /* PageControlCollectionViewCell.h in Headers */,
-				64FCB387F8E754AD9321421A3A607497 /* PageControlView.h in Headers */,
+				84AAE1143739529741A8282D9164B135 /* BootProgramView-umbrella.h in Headers */,
+				61AD14F2D78A657AB066820D7338DA54 /* NSBundle+SuBundle.h in Headers */,
+				9D2942775698E555584216ADA14DB7AE /* PageControlCollectionViewCell.h in Headers */,
+				7C072063EB75428EEBC55BE1C34E6409 /* PageControlView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E77D2560B0F9CA6558C385376AE6B66 /* BootProgramView-BootProgramView */ = {
+		857D83DFFA880CC981BB9EF87542C224 /* BootProgramView-BootProgramView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEFC9A42B7B32E786517F86718CB31C7 /* Build configuration list for PBXNativeTarget "BootProgramView-BootProgramView" */;
+			buildConfigurationList = BE5103923324A2874CABA49FD1A9D56F /* Build configuration list for PBXNativeTarget "BootProgramView-BootProgramView" */;
 			buildPhases = (
-				B77958B16C9261261DD928F2AFFFFC52 /* Sources */,
-				5BD0EFAE759D123D2402FB4AE765F5C5 /* Frameworks */,
-				32DA0C3B0C3894CB90E8EB69CD324405 /* Resources */,
+				05AE0F0DE3CAEE0F297D3DD2D7077587 /* Sources */,
+				FF36EDC1DA571D67E7AED7A7C6D0F258 /* Frameworks */,
+				40E5FF5DAED31C527637FC9E9217C0B8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -340,25 +347,6 @@
 			productName = "BootProgramView-BootProgramView";
 			productReference = 0E846AE75519ACFDD20617B3DC0D1A6F /* BootProgramView.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		8E5E4E72C4B0B7D579ABD38E0F3CE63C /* BootProgramView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4EB7BFA9735E9609190BAF217571E21 /* Build configuration list for PBXNativeTarget "BootProgramView" */;
-			buildPhases = (
-				094E7BF479E129894A0330C30179135F /* Sources */,
-				8FB0E779281AE0E88C6B16E997DE448D /* Frameworks */,
-				9F383823B9B33A56647A86B60A1B19AD /* Resources */,
-				D559FF9BA95BEA56CB9E30998B1D377D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA196450E3EEEC923F195B5934A59F73 /* PBXTargetDependency */,
-			);
-			name = BootProgramView;
-			productName = BootProgramView;
-			productReference = 5516CD83D38BA4DD9FB05EFA1B95B14C /* BootProgramView.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		A508D009B9BFA88223C71C5737264922 /* Pods-BootProgramView_Tests */ = {
 			isa = PBXNativeTarget;
@@ -375,6 +363,25 @@
 			name = "Pods-BootProgramView_Tests";
 			productName = "Pods-BootProgramView_Tests";
 			productReference = DC4E3ECF6273D0F6C965659F2985321A /* Pods_BootProgramView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9014804799726761ADF38040EAE81C0 /* BootProgramView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 514BB8AC6FD03328E95995F9929DD308 /* Build configuration list for PBXNativeTarget "BootProgramView" */;
+			buildPhases = (
+				1E3617F9EE36FBF3216679406B964488 /* Sources */,
+				A88043F750B5A89CD6067ED9E1358F96 /* Frameworks */,
+				565177922CCA9607C67DF3C893BD4464 /* Resources */,
+				8F87A75652C90089F7C0AF90CF5AF230 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B03E222DD73C0C771A98927C731F1095 /* PBXTargetDependency */,
+			);
+			name = BootProgramView;
+			productName = BootProgramView;
+			productReference = 5516CD83D38BA4DD9FB05EFA1B95B14C /* BootProgramView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E73D64AF229D1AE41ACD6C36D805E82F /* Pods-BootProgramView_Example */ = {
@@ -416,8 +423,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8E5E4E72C4B0B7D579ABD38E0F3CE63C /* BootProgramView */,
-				5E77D2560B0F9CA6558C385376AE6B66 /* BootProgramView-BootProgramView */,
+				B9014804799726761ADF38040EAE81C0 /* BootProgramView */,
+				857D83DFFA880CC981BB9EF87542C224 /* BootProgramView-BootProgramView */,
 				E73D64AF229D1AE41ACD6C36D805E82F /* Pods-BootProgramView_Example */,
 				A508D009B9BFA88223C71C5737264922 /* Pods-BootProgramView_Tests */,
 			);
@@ -425,50 +432,51 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32DA0C3B0C3894CB90E8EB69CD324405 /* Resources */ = {
+		40E5FF5DAED31C527637FC9E9217C0B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E11937FE372DBAFC8740AD486E226DFB /* PageControlCollectionViewCell.xib in Resources */,
-				62D6D8EF922A372C0FCB427F0A222A47 /* PageControlView.xib in Resources */,
-				60196B94AAA2AA27801A6108AA5B635F /* 引导页1.png in Resources */,
-				7DDA8CF506CF9CDEC8DF6D88AD95D203 /* 引导页1IphoneX .png in Resources */,
-				44B9EB3D232503C0E60ADB555F30E433 /* 引导页2.png in Resources */,
-				EAE736B6E8A4074B91F09C469CED6693 /* 引导页2@2x.png in Resources */,
-				A12EB842DE4A2A5259B270A5146B4354 /* 引导页2@3x.png in Resources */,
-				37BFAA0011BD22E63B2DF8BF0A8E3B6A /* 引导页2IphoneX.png in Resources */,
-				D11F32995E340F0F53F507AA8F742D76 /* 引导页3.png in Resources */,
-				DA67446CBF554EB6A2B3D62E66F83E91 /* 引导页3@2x.png in Resources */,
-				DCDE8B64511C452A53DA476748CD4FEF /* 引导页3@3x.png in Resources */,
-				E3234B6DEF4D509371591D03F248921C /* 引导页3IphoneX.png in Resources */,
+				611D4D7D185CD88ADBE1759576E37943 /* PageControlCollectionViewCell.xib in Resources */,
+				6ECA7AD75FAA6D222033EF3268F6C8B3 /* PageControlView.xib in Resources */,
+				53B284CDA30E918B984AA7F2E1C07B57 /* 引导页1.png in Resources */,
+				6C93B33F19B0FF7B85FBFC4620B134DA /* 引导页1IphoneX .png in Resources */,
+				F36101E5E8F8322A92C2C88CCF703A98 /* 引导页2.png in Resources */,
+				DF30D649BDA54A0FE78FBB309A4F0626 /* 引导页2@2x.png in Resources */,
+				FD7B71A4276A5309E835D76C6B24C330 /* 引导页2@3x.png in Resources */,
+				CAFAD0A2CF9B9ECECF720BF56D1612D8 /* 引导页2IphoneX.png in Resources */,
+				A18783709283B64C17401F9979B2E3ED /* 引导页3.png in Resources */,
+				A24C0491E252BBAE18A5178661205671 /* 引导页3@2x.png in Resources */,
+				74A00DB0D9E70A152D327330D8FC12AD /* 引导页3@3x.png in Resources */,
+				81CA4CABFB5A98309794F54B9B24D422 /* 引导页3IphoneX.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F383823B9B33A56647A86B60A1B19AD /* Resources */ = {
+		565177922CCA9607C67DF3C893BD4464 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E3F06AA2E8F3829ABA4ECF91138A594 /* BootProgramView.bundle in Resources */,
+				0EDC6F78A53ABF95D99EDB30603A4432 /* BootProgramView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		094E7BF479E129894A0330C30179135F /* Sources */ = {
+		05AE0F0DE3CAEE0F297D3DD2D7077587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD100B070B3D56F4322E3090C86DB8BD /* BootProgramView-dummy.m in Sources */,
-				76401338D7B8DA46428C54496EFF5302 /* PageControlCollectionViewCell.m in Sources */,
-				AA40110E2B8510901AB745F1DF30EEE7 /* PageControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B77958B16C9261261DD928F2AFFFFC52 /* Sources */ = {
+		1E3617F9EE36FBF3216679406B964488 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845871DF9778D42ECCA7E0BC077F05A9 /* BootProgramView-dummy.m in Sources */,
+				2DA72DD133E02127748B46805533C0B3 /* NSBundle+SuBundle.m in Sources */,
+				3441A29E75617DC67F5CB0BCC155CF8E /* PageControlCollectionViewCell.m in Sources */,
+				41936B782EE4A834C60F93CBC1CE3A3E /* PageControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,24 +499,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA196450E3EEEC923F195B5934A59F73 /* PBXTargetDependency */ = {
+		B03E222DD73C0C771A98927C731F1095 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BootProgramView-BootProgramView";
-			target = 5E77D2560B0F9CA6558C385376AE6B66 /* BootProgramView-BootProgramView */;
-			targetProxy = D163B9FFCE7C2C222A55302E87F8AF5C /* PBXContainerItemProxy */;
+			target = 857D83DFFA880CC981BB9EF87542C224 /* BootProgramView-BootProgramView */;
+			targetProxy = 50207063338CC3C5AE03C2D1F21A6BA8 /* PBXContainerItemProxy */;
 		};
 		E71DD469F1E25D19667E39089F66B466 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BootProgramView;
-			target = 8E5E4E72C4B0B7D579ABD38E0F3CE63C /* BootProgramView */;
+			target = B9014804799726761ADF38040EAE81C0 /* BootProgramView */;
 			targetProxy = 0D3AD4D274AE40091F3A445F7D8D0787 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11DB839762816309D98E413E4B31BD9D /* Debug */ = {
+		0028C8A47E61359BFD78B548DCC71664 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03BD6432E69B4175C6AADEF65215A127 /* BootProgramView.xcconfig */;
+			baseConfigurationReference = D6787DDAD2BC05F9B621D6D5616171E1 /* BootProgramView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BootProgramView/BootProgramView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BootProgramView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BootProgramView/BootProgramView.modulemap";
+				PRODUCT_NAME = BootProgramView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A6E250EC19081F45280EF049F10D98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6787DDAD2BC05F9B621D6D5616171E1 /* BootProgramView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BootProgramView";
@@ -617,6 +654,36 @@
 			};
 			name = Debug;
 		};
+		5DA32CFCD2A6FC71B6A614DC3AFF90DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6787DDAD2BC05F9B621D6D5616171E1 /* BootProgramView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BootProgramView/BootProgramView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BootProgramView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BootProgramView/BootProgramView.modulemap";
+				PRODUCT_NAME = BootProgramView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		79686CEF2371274856004981F400E231 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69F4BFC1013C34CE035568165135F93E /* Pods-BootProgramView_Tests.release.xcconfig */;
@@ -708,35 +775,6 @@
 			};
 			name = Release;
 		};
-		9457CBA233AD1AAA6F36DE7D01A84858 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03BD6432E69B4175C6AADEF65215A127 /* BootProgramView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BootProgramView/BootProgramView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BootProgramView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BootProgramView/BootProgramView.modulemap";
-				PRODUCT_NAME = BootProgramView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AB627E8B810DD3131AA544FC494B7F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B552846F6E9BEA99629A96F6B99C7303 /* Pods-BootProgramView_Example.debug.xcconfig */;
@@ -768,6 +806,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AECCF2CE18D8168AA17EEEB4A1FABB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6787DDAD2BC05F9B621D6D5616171E1 /* BootProgramView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BootProgramView";
+				INFOPLIST_FILE = "Target Support Files/BootProgramView/ResourceBundle-BootProgramView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BootProgramView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		B5354E145B8CCDDC448FB4329F1BC36B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -802,52 +856,6 @@
 			};
 			name = Release;
 		};
-		CACC072DB1174AFFED2E04CCFC36E5F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03BD6432E69B4175C6AADEF65215A127 /* BootProgramView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BootProgramView";
-				INFOPLIST_FILE = "Target Support Files/BootProgramView/ResourceBundle-BootProgramView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = BootProgramView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E1E2939A8FD48F9C767A87847E993DAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03BD6432E69B4175C6AADEF65215A127 /* BootProgramView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BootProgramView/BootProgramView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BootProgramView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BootProgramView/BootProgramView.modulemap";
-				PRODUCT_NAME = BootProgramView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -856,6 +864,15 @@
 			buildConfigurations = (
 				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
 				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514BB8AC6FD03328E95995F9929DD308 /* Build configuration list for PBXNativeTarget "BootProgramView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0028C8A47E61359BFD78B548DCC71664 /* Debug */,
+				5DA32CFCD2A6FC71B6A614DC3AFF90DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -869,11 +886,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4EB7BFA9735E9609190BAF217571E21 /* Build configuration list for PBXNativeTarget "BootProgramView" */ = {
+		BE5103923324A2874CABA49FD1A9D56F /* Build configuration list for PBXNativeTarget "BootProgramView-BootProgramView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9457CBA233AD1AAA6F36DE7D01A84858 /* Debug */,
-				E1E2939A8FD48F9C767A87847E993DAB /* Release */,
+				0A6E250EC19081F45280EF049F10D98F /* Debug */,
+				AECCF2CE18D8168AA17EEEB4A1FABB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -883,15 +900,6 @@
 			buildConfigurations = (
 				AB627E8B810DD3131AA544FC494B7F50 /* Debug */,
 				B5354E145B8CCDDC448FB4329F1BC36B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EEFC9A42B7B32E786517F86718CB31C7 /* Build configuration list for PBXNativeTarget "BootProgramView-BootProgramView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				11DB839762816309D98E413E4B31BD9D /* Debug */,
-				CACC072DB1174AFFED2E04CCFC36E5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

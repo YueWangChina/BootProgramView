@@ -8,7 +8,7 @@
 
 #import "PageControlView.h"
 #import "PageControlCollectionViewCell.h"
-
+#import "NSBundle+SuBundle.h"
 #define  kHighlighted [UIColor colorWithRed:230/255.0 green:230/255.0 blue:230/255.0 alpha:1.0]
 #define kAfterDelayTime 0.3 //最后按钮显示的延迟时间
 static NSString *reuseIdentifier = @"PageControlCollectionViewCell";
@@ -41,7 +41,9 @@ UIScrollViewDelegate
 +(PageControlView *)instance
 {
     
-    NSArray *nibView=[[NSBundle bundleForClass:[self class]]loadNibNamed:@"PageControlView" owner:self options:nil];
+    
+    
+    NSArray *nibView=[[NSBundle cz_subBundleWithBundleName:@"BootProgramView" targetClass:[self class]] loadNibNamed:@"PageControlView" owner:self options:nil];
     return [nibView objectAtIndex:0];
 }
 
@@ -129,7 +131,10 @@ UIScrollViewDelegate
 {
 
 
-    UINib *nib = [UINib nibWithNibName:@"PageControlCollectionViewCell" bundle: [NSBundle bundleForClass:self.class]];
+    UINib *nib = [UINib nibWithNibName:@"PageControlCollectionViewCell" bundle: [NSBundle cz_subBundleWithBundleName:@"BootProgramView" targetClass:[self class]]];
+    
+
+    
     [collectionView registerNib:nib forCellWithReuseIdentifier:reuseIdentifier];
     PageControlCollectionViewCell *cell=[collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
 
