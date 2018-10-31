@@ -1,6 +1,6 @@
 {
   "name": "BootProgramView",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "summary": "A short description of BootProgramView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/YueWangChina/BootProgramView",
@@ -13,15 +13,15 @@
   },
   "source": {
     "git": "https://github.com/YueWangChina/BootProgramView.git",
-    "tag": "0.1.0"
+    "tag": "3.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BootProgramView/Classes/**/*",
+  "source_files": "BootProgramView/Classes/**/*.{h,m,}",
   "resource_bundles": {
     "BootProgramView": [
-      "BootProgramView/Assets/*.png"
+      "BootProgramView/Assets/*.{png,xib}"
     ]
   }
 }
